@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className={cn('relative w-full max-w-screen-lg h-[80%] border',raleway.className)}>
       <HeaderComponent/>
+      <HeroComponent/>
 
     </div>
   );
