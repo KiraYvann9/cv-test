@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import Image from 'next/image'
 
 
 export const HeaderComponent = () => {
@@ -9,7 +10,7 @@ export const HeaderComponent = () => {
         <div className='absolute w-[90%] h-auto'>
             <div className='flex gap-8 items-center'>
                 <div className='border-white border-4 w-[200px] h-[200px] shadow-md bg-gray-400'>
-
+                    <Image src={'/assets/img/photo.JPG'} width={200} height={200} alt='' className='h-auto'/>
                 </div>
 
                 <div>
