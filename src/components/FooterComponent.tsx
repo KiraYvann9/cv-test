@@ -2,6 +2,8 @@ import React from 'react'
 
 export const FooterComponent = () => {
   return (
-    <div>FooterComponent</div>
+    <div className='w-full h-28 bg-cyan-400'>
+      
+    </div>
   )
 }
